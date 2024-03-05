@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-05T20:53:45 IST" name="Suite" finished-at="2024-03-05T20:57:29 IST" duration-ms="224586">
+    <groups>
+    </groups>
+    <test started-at="2024-03-05T20:53:45 IST" name="ChromeTest" finished-at="2024-03-05T20:57:29 IST" duration-ms="224586">
+      <class name="test.TC002_signintest">
+        <test-method is-config="true" signature="excelsheet()[pri:0, instance:test.TC002_signintest@25df00a0]" started-at="2024-03-05T20:53:45 IST" name="excelsheet" finished-at="2024-03-05T20:53:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelsheet -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC002_signintest@25df00a0]" started-at="2024-03-05T20:56:17 IST" name="launchBrowser" finished-at="2024-03-05T20:56:22 IST" duration-ms="4866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="signin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC002_signintest@25df00a0]" started-at="2024-03-05T20:56:22 IST" name="signin" data-provider="exceldata" finished-at="2024-03-05T20:56:53 IST" duration-ms="31478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ragaav1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ragaav]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[correct]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC002_signintest@25df00a0]" started-at="2024-03-05T20:56:53 IST" name="browserClose" finished-at="2024-03-05T20:56:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC002_signintest@25df00a0]" started-at="2024-03-05T20:56:53 IST" name="launchBrowser" finished-at="2024-03-05T20:56:59 IST" duration-ms="5422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="signin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC002_signintest@25df00a0]" started-at="2024-03-05T20:56:59 IST" name="signin" data-provider="exceldata" finished-at="2024-03-05T20:57:29 IST" duration-ms="30838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC002_signintest@25df00a0]" started-at="2024-03-05T20:57:29 IST" name="browserClose" finished-at="2024-03-05T20:57:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.TC002_signintest -->
+      <class name="test.TC001_logintest">
+        <test-method is-config="true" signature="excelsheet()[pri:0, instance:test.TC001_logintest@3feb2dda]" started-at="2024-03-05T20:53:45 IST" name="excelsheet" finished-at="2024-03-05T20:53:45 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelsheet -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC001_logintest@3feb2dda]" started-at="2024-03-05T20:53:46 IST" name="launchBrowser" finished-at="2024-03-05T20:53:55 IST" duration-ms="8246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC001_logintest@3feb2dda]" started-at="2024-03-05T20:53:55 IST" name="login" data-provider="exceldata" finished-at="2024-03-05T20:54:26 IST" duration-ms="31092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pranesh11@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pranesh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[both correct]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC001_logintest@3feb2dda]" started-at="2024-03-05T20:54:26 IST" name="browserClose" finished-at="2024-03-05T20:54:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC001_logintest@3feb2dda]" started-at="2024-03-05T20:54:26 IST" name="launchBrowser" finished-at="2024-03-05T20:54:32 IST" duration-ms="6613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC001_logintest@3feb2dda]" started-at="2024-03-05T20:54:32 IST" name="login" data-provider="exceldata" finished-at="2024-03-05T20:55:03 IST" duration-ms="30926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pranesh14@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pranesh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrong username]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC001_logintest@3feb2dda]" started-at="2024-03-05T20:55:03 IST" name="browserClose" finished-at="2024-03-05T20:55:03 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC001_logintest@3feb2dda]" started-at="2024-03-05T20:55:03 IST" name="launchBrowser" finished-at="2024-03-05T20:55:09 IST" duration-ms="5947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC001_logintest@3feb2dda]" started-at="2024-03-05T20:55:09 IST" name="login" data-provider="exceldata" finished-at="2024-03-05T20:55:40 IST" duration-ms="31012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pranesh11@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mona123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrong password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC001_logintest@3feb2dda]" started-at="2024-03-05T20:55:40 IST" name="browserClose" finished-at="2024-03-05T20:55:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC001_logintest@3feb2dda]" started-at="2024-03-05T20:55:40 IST" name="launchBrowser" finished-at="2024-03-05T20:55:46 IST" duration-ms="5348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC001_logintest@3feb2dda]" started-at="2024-03-05T20:55:46 IST" name="login" data-provider="exceldata" finished-at="2024-03-05T20:56:17 IST" duration-ms="30900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pranesh14@gamil.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mona]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[both wrong]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC001_logintest@3feb2dda]" started-at="2024-03-05T20:56:17 IST" name="browserClose" finished-at="2024-03-05T20:56:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.TC001_logintest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
